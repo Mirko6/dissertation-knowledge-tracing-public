@@ -1,0 +1,12 @@
+v1 
+- data with defined skill
+- only the relevant columns - order_id,user_id,skill_id,problem_id,correct
+- witih first_action == 0 (that is probably attempt)
+- random split by rows
+
+v2
+- delete users with only one attempt
+- buggy data - could have train record that happened after test record
+
+v3
+- split by random users and not by random rows
